@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fredbrume.udacitybakeryapp1.view.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="5dp">
+
+        <ImageButton
+            android:id="@+id/cakeLogo"
+            android:layout_width="@dimen/home_imagebutton_width"
+            android:layout_height="@dimen/home_imagebutton_height"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_chef_hat" />
+
+        <TextView
+            android:id="@+id/toolbar_baking_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/text_marginTop"
+            android:fontFamily="casual"
+            android:lineSpacingExtra="@dimen/text_line_spacing"
+            android:paddingLeft="2dp"
+            android:text="Baking"
+            android:textColor="@color/white"
+            android:textSize="@dimen/home_title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toolbar_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/text_marginTop"
+            android:fontFamily="casual"
+            android:lineSpacingExtra="@dimen/text_line_spacing"
+            android:text="App"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="@dimen/home_title_text_size"
+            android:textStyle="italic" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/main_recipe_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:saveEnabled="@bool/bool_true" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            android:background="@drawable/toolbar_bg" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

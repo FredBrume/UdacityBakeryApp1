@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+
+    <FrameLayout
+        android:id="@+id/back_drop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_transparent_gradient"
+        android:focusableInTouchMode="true" >
+
+        <ImageView
+            android:id="@+id/recipe_backdrop_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_backdrop_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/demo" />
+
+        <TextView
+            android:id="@+id/widget_recipe_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/widget_title_size"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            tools:text="Flower chocolate chip"
+            android:layout_gravity="bottom"/>
+
+    </FrameLayout>
+
+
+    <ListView
+
+        android:id="@+id/ingredients_widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@+id/back_drop_layout"/>
+
+</RelativeLayout>

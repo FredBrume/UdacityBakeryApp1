@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4E342E</color>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tinted_grey">#161616</color>
+    <color name="translucent_black">#59000000</color>
+    <color name="darker_grey">#5e5e5e</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#f5f5f2</color>
+    <color name="Tabhost_bg_color">#E0E0E0</color>
+    <color name="colorDarkerGreen">#00796B</color>
+    <color name="colorLighterGreen">#019180</color>
+    <color name="colorSuperLighterGreen">#8be9de</color>
+</resources>

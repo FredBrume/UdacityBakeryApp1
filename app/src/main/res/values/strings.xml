@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Udacity Bakery App 1</string>
+    <string name="recipe_image_description">Recipe Image</string>
+    <string name="added_to_favorite_clicked">Recipe has been saved</string>
+    <string name="added_to_favorite_unclicked_clicked">Recipe has been removed</string>
+    <string name="duplicate_recipe">Recipe has already been saved</string>
+    <string name="removed_to_favorite_">Recipe removed from favorite</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="search_hint">Seach</string>
+
+</resources>

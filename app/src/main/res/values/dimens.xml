@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="reciper_thumbnail_width">150dp</dimen>
+    <dimen name="recipe_thumbnail_height">200dp</dimen>
+    <dimen name ="home_imagebutton_width">35dp</dimen>
+    <dimen name ="home_imagebutton_height">35dp</dimen>
+    <dimen name="text_marginTop">16dp</dimen>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="recipe_master_list_fragment_width">400dp</dimen>
+    <dimen name="widget_backdrop_height">150dp</dimen>
+    <dimen name="recipe_activity_backdrop_height">250dp</dimen>
+    <dimen name="servings_text_size">50sp</dimen>
+    <dimen name="tab_layout_height">50dp</dimen>
+    <dimen name="recipe_discription_width">352dp</dimen>
+
+
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_title_size">20sp</dimen>
+
+
+    <dimen name="text_line_spacing">8sp</dimen>
+    <dimen name="home_title_text_size">25sp</dimen>
+</resources>

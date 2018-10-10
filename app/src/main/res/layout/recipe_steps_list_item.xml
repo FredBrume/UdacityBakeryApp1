@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+
+    <TextView
+        android:id="@+id/step_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/steps_id_circle"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="8sp"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/step_short_discription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:text="cups"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="8sp"/>
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_video"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

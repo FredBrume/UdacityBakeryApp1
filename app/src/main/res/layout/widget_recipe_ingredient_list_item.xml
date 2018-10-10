@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_ingredient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/measure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:lineSpacingExtra="8sp"
+            android:textColor="@color/colorDarkerGreen"
+            android:layout_marginLeft="6dp"
+            android:textSize="13sp"
+            tools:text="cups" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="4dp">
+
+        <TextView
+            android:id="@+id/ingredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingLeft="2dp"
+
+            tools:text="rolled oats, (not instant)" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_marginTop"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/simpleSeekBar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:maxHeight="7dp"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <TextView
+                android:id="@+id/servings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="8"
+                android:fontFamily="casual"
+                android:lineSpacingExtra="@dimen/text_line_spacing"
+                android:textColor="@color/colorLighterGreen"
+                android:textSize="@dimen/servings_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="Servings"
+                android:fontFamily="casual"
+                android:lineSpacingExtra="@dimen/text_line_spacing"
+                android:textColor="@color/colorLighterGreen"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/ingredients_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
